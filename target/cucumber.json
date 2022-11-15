@@ -1,0 +1,232 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3615361900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BackgroundStepsDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Sky Blue Background",
+        "description": "",
+        "id": "change-background-color-functionality-validation;sky-blue-background;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 739109600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BackgroundStepsDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 759553700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"skyblue\" button exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "skyblue",
+                  "offset": 1
+                }
+              ],
+              "location": "BackgroundStepsDefinition.button_exist(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 81106400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the \"skyblue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "skyblue",
+                  "offset": 16
+                }
+              ],
+              "location": "BackgroundStepsDefinition.i_click_on_the_button(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58329900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the background color will change to \"skyblue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "skyblue",
+                  "offset": 37
+                }
+              ],
+              "location": "BackgroundStepsDefinition.the_background_color_will_change_to_sky_blue(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Backgroundtest"
+          },
+          {
+            "line": 1,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1565057900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BackgroundStepsDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Sky Blue Background",
+        "description": "",
+        "id": "change-background-color-functionality-validation;sky-blue-background;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 798143900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BackgroundStepsDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 539803700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"white\" button exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "white",
+                  "offset": 1
+                }
+              ],
+              "location": "BackgroundStepsDefinition.button_exist(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 124379800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the \"white\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "white",
+                  "offset": 16
+                }
+              ],
+              "location": "BackgroundStepsDefinition.i_click_on_the_button(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86095400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the background color will change to \"white\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "white",
+                  "offset": 37
+                }
+              ],
+              "location": "BackgroundStepsDefinition.the_background_color_will_change_to_sky_blue(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Backgroundtest"
+          },
+          {
+            "line": 1,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Change background color functionality validation",
+    "description": "",
+    "id": "change-background-color-functionality-validation",
+    "keyword": "Feature",
+    "uri": "features/SkyBlueBG.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Backgroundtest"
+      },
+      {
+        "line": 1,
+        "name": "@Regression"
+      }
+    ]
+  }
+]
